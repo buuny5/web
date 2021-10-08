@@ -1,0 +1,132 @@
+.frame6 {
+    background-color: #FEF4DC;
+    padding: 50px 0px;
+}
+
+.frame6card {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px;
+}
+
+/* .mainCard {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px;
+} */
+
+.Frame6Heading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #007BA7;
+}
+
+.cardName {
+    width: 300px;
+    margin: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 30px rgba(185, 185, 185, 0.25);
+    border-radius: 14px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.cardName1 {
+    width: 300px;
+    margin: 20px;
+    background: #FFF8E8;
+    box-shadow: 0px 4px 20px rgba(133, 132, 132, 0.1);
+    border-radius: 14px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.cardNameStyle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #007BA7;
+}
+
+.cardHead {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #007BA7;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 20px 0px;
+}
+
+.cardPara {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2C92B1;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 20px 0px;
+}
+.frame6card2{
+    padding: 0px 50px;
+}
+
+.cardNames {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* padding: 20px; */
+    /* margin: 20px; */
+    /* justify-content: space-around; */
+}
+@media only screen and (max-width: 800px) {
+    .frame6card {
+      flex-direction: column;
+      
+    }
+    .cardName{
+        padding: 20px 0px;
+        margin: 20px 0px;
+    }
+    .cardName1{
+        padding: 20px 0px;
+        margin: 20px 0px;
+    }
+    .frame6card{
+        padding: 0px 50px;
+        /* margin: 0px auto; */
+    }
+    .frame6card2{
+        padding: 0px;
+    }
+  }
+  @media only screen and (max-width: 370px) {
+    .frame6card {
+      flex-direction: column;
+      
+    }
+    .cardName{
+        padding: 0px;
+        margin: 0px;
+    }
+    .cardName1{
+        padding: 20px 0px;
+        margin: 20px 0px;
+    }
+    .frame6card{
+        padding: 0px 50px;
+        /* margin: 0px auto; */
+    }
+    .frame6card2{
+        padding: 0px;
+    }
+  }

@@ -1,0 +1,111 @@
+.frame2Headings {
+    text-align: center;
+    color: #007BA7;
+}
+
+.frame2Heading {
+    /* font-family: Poppins; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    /* text-align: center; */
+}
+
+.frame2Paragraph {
+    /* font-family: Poppins; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    /* display: flex; */
+    /* height: 54px;
+left: 424px;
+top: 880px; */
+    /* text-align: center; */
+}
+
+.container5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    margin: auto 40px;
+    padding: 0px 0px 20px 20px;
+    flex: 1;
+}
+
+.card2 {
+    margin: auto 40px;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+}
+.imageCard {
+    margin: auto 40px;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+}
+
+.card3 {
+    margin: auto 40px;
+    padding: 0px 20px 20px 20px;
+    flex: 1;
+}
+
+.cards {
+    padding: 20px 0px;
+}
+
+.frame5heading {
+    /* font-family: Poppins; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    /* letter-spacing: 0em; */
+    /* text-align: left; */
+    color: #007BA7;
+    padding-top: 20px;
+}
+
+.containerPara {
+    /* font-family: Poppins; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 27px;
+    /* letter-spacing: 0em; */
+    /* text-align: left; */
+    color: #2C92B1;
+}
+
+.recipies-btn {
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* align-items: flex-start; */
+    padding: 15px 60px;
+    /* position: absolute; */
+    width: 256px;
+    height: 54px;
+    /* left: 601px; */
+    /* top: 1481px; */
+    /* Yellow Secondary */
+    /* margin: 0px; */
+    background: #FAAE02;
+    border-radius: 30px;
+}
+@media only screen and (max-width: 800px) {
+    .container5 {
+      flex-direction: column;
+    }
+    .imageCard{
+        padding: 0px;
+        margin: 0px;
+    }
+    .packet{
+        width: 90%;
+    }
+  }

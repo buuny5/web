@@ -1,0 +1,71 @@
+.frame7 {
+    /* background-color: #FEF4DC; */
+    padding: 50px 0px;
+}
+
+.frame7card {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px 0px 20px;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.frame7header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #007BA7;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 20px 0px;
+}
+
+.frame7para {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    padding-left: 20px 0px;
+    color: #2C92B1;
+}
+
+.frame7headerdesc {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #007BA7;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 20px 0px;
+}
+
+.frame7image {
+    margin: -10px;
+    padding: -10px;
+}
+
+.dogcard {
+    background: #FFFFFF;
+    /* Card */
+    box-shadow: 0px 4px 20px rgba(133, 132, 132, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .frame7card {
+        flex-direction: column;
+        padding: 0px;
+    }
+    .dogimages{
+        width:100%; 
+    }
+}

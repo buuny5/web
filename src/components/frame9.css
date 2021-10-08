@@ -1,0 +1,131 @@
+.frame9 {
+    background: #EDE7D9;
+    padding: 40px 0px;
+    margin: 0px auto;
+}
+
+.iconDesign {
+    /* width: 25px;
+    height: 25px; */
+    padding-right: 20px;
+    width: 30px;
+    height: 30px;
+    /* left: 657.5px; */
+    /* top: 0px; */
+    /* margin-top: -10; */
+    /* Yellow Secondary */
+    /* border-radius:25px ; */
+    /* background: #FAAE02; */
+}
+
+.frame9h6 {
+    /* font-family: Poppins; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* padding-left:20px; */
+    color: #0D0C22;
+}
+
+.frame9bottom {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    padding: 20px 40px;
+    /* Text Light Blue */
+    color: #2C92B1;
+}
+
+.foot2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px 0px 40px;
+}
+
+.foot2icon {
+    padding: 0px 20px 20px 20px;
+}
+
+.madeclass {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #007BA7;
+    padding: 0px 20px 10px 0px;
+}
+
+.copyright {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #007BA7;
+    padding: 0px 20px 10px 0px;
+}
+
+.TnC {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #007BA7;
+    padding: 0px 20px 10px 0px;
+}
+
+.arrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 35px;
+    /* position: absolute; */
+    width: 70px;
+    height: 50px;
+    left: 315px;
+    top: 218px;
+    background: #FDCC5F;
+    border-radius: 10px;
+    margin-left: -30px;
+}
+
+.health {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    /* Black */
+    color: #0D0C22;
+    padding-bottom: 10px;
+}
+
+.lastCard {
+    text-align: end;
+}
+
+@media only screen and (max-width: 800px) {
+    .foot {
+        flex-direction: column;
+        text-align: center;
+    }
+    .foot2 {
+        flex-direction: column;
+        /* padding: 0px; */
+    }
+    .foot2end {
+        text-align: center;
+    }
+    .foot2icon {
+        padding: 20px;
+    }
+    .footButton {
+        justify-content: center;
+    }
+    .lastCard {
+        text-align: center;
+    }
+}
